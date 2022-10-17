@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css'
 import Search from './Components/Search/Search';
 import CurrentWeather from './Components/Current/current-weather';
 import { WEATHER_API_URL, WEATHER_API_KEY } from './Components/api.js'
