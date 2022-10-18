@@ -5,7 +5,6 @@ import CurrentWeather from './Components/Current/current-weather';
 import { WEATHER_API_URL, WEATHER_API_KEY } from './Components/api.js'
 import { useState } from 'react';
 import Forecast from './Components/Forecast/Forecast';
-import { VscGitPullRequestCreate } from 'react-icons/vsc'
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null)
@@ -42,7 +41,6 @@ function App() {
       <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrentWeather data={currentWeather}/>}
       {forecast && <Forecast data={forecast} />}
-      <VscGitPullRequestCreate />
     </div>
   );
 }

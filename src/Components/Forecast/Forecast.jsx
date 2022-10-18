@@ -47,7 +47,7 @@ const Forecast = ({data}) => {
 
                             <div className="daily-details-grid-item">
                                 <label><strong>Sea Level: </strong></label>
-                                <label>{Math.round(item.main.sea_level)}°F</label>
+                                <label>{Math.round(item.main.sea_level)}ft</label>
                             </div>
 
                             <div className="daily-details-grid-item">
