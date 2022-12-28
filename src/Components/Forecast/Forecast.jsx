@@ -59,7 +59,9 @@ const Forecast = ({data}) => {
                 </AccordionItem>
             ))}
         </Accordion>
+        <p><i><small>*All information shown here is from GeoDB and OpenWeather*</small></i></p>
     </>
+    
     )
 }
 

@@ -41,7 +41,7 @@ function App() {
       <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrentWeather data={currentWeather}/>}
       {forecast && <Forecast data={forecast} />}
-      <p><i><small>*All information shown here is from GeoDB and OpenWeather*</small></i></p>
+      
     </div>
   );
 }
